@@ -22,9 +22,10 @@ var (
 )
 
 // https://github.com/golang/go/issues/24652#issuecomment-399826583
-var trustSettings []interface{}
-var _, _ = plist.Unmarshal(trustSettingsData, &trustSettings)
-var trustSettingsData = []byte(`
+var (
+	trustSettings     []interface{}
+	_, _              = plist.Unmarshal(trustSettingsData, &trustSettings)
+	trustSettingsData = []byte(`
 <array>
 	<dict>
 		<key>kSecTrustSettingsPolicy</key>
@@ -48,6 +49,7 @@ var trustSettingsData = []byte(`
 	</dict>
 </array>
 `)
+)
 
 func (m *mkcert) installPlatform() bool {
 	cmd := commandWithSudo("security", "add-trusted-cert", "-d", "-k", "/Library/Keychains/System.keychain", filepath.Join(m.CAROOT, rootName))
@@ -92,7 +94,7 @@ func (m *mkcert) installPlatform() bool {
 
 	plistData, err = plist.MarshalIndent(plistRoot, plist.XMLFormat, "\t")
 	fatalIfErr(err, "failed to serialize trust settings")
-	err = ioutil.WriteFile(plistFile.Name(), plistData, 0600)
+	err = ioutil.WriteFile(plistFile.Name(), plistData, 0o600)
 	fatalIfErr(err, "failed to write trust settings")
 
 	cmd = commandWithSudo("security", "trust-settings-import", "-d", plistFile.Name())

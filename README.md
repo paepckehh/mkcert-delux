@@ -5,7 +5,7 @@ This is just a small (demonstrator/experimental) fork of filippo.io/mkcert.
 If upstream is intrested (adding 9 LOCs + some, sight, dependencys)
 i would love to prep a small PR and kill this fork.
 
-PLEASE ALWAYS USE THE ORIGINAL: [filippo.io/mkcert](https://filippo.io/mkcert)
+ORIGINAL SOURCE: [filippo.io/mkcert](https://filippo.io/mkcert)
 
 # WHATS NEW?
 

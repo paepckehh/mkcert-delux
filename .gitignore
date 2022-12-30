@@ -1,0 +1,17 @@
+.build.sh
+.build.hqx
+.norelease
+.info
+.appname
+.export
+.tag
+.commit
+.version
+.summary.txt
+.todo
+.attic
+.dev
+.goo.*
+Makefile
+doc
+vendor

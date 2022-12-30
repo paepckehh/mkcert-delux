@@ -151,8 +151,10 @@ func main() {
 	}).Run(flag.Args())
 }
 
-const rootName = "rootCA.pem"
-const rootKeyName = "rootCA-key.pem"
+const (
+	rootName    = "rootCA.pem"
+	rootKeyName = "rootCA-key.pem"
+)
 
 type mkcert struct {
 	installMode, uninstallMode bool
@@ -175,7 +177,7 @@ func (m *mkcert) Run(args []string) {
 	if m.CAROOT == "" {
 		log.Fatalln("ERROR: failed to find the default CA location, set one as the CAROOT env var")
 	}
-	fatalIfErr(os.MkdirAll(m.CAROOT, 0755), "failed to create the CAROOT")
+	fatalIfErr(os.MkdirAll(m.CAROOT, 0o755), "failed to create the CAROOT")
 	m.loadCA()
 
 	if m.installMode {
@@ -277,11 +279,11 @@ func (m *mkcert) install() {
 				if o := os.Getenv("NO_COLOR"); o != "" {
 					style = reportstyle.StyleText()
 				}
-				report := &certinfo.Report{Summary: true,Style: style}
+				report := &certinfo.Report{Summary: true, Style: style}
 				if o := os.Getenv("VERBOSE"); o != "" {
 					report.OpenSSL = true
 				}
-				log.Print(certinfo.Cert(m.caCert,report))
+				log.Print(certinfo.Cert(m.caCert, report))
 			}
 			m.ignoreCheckFailure = true // TODO: replace with a check for a successful install
 		}
