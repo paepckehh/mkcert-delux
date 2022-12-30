@@ -15,7 +15,7 @@ is and does and allows by provide you a small summary report.
 * Just add the usual NO_COLOR=true to env to switch off the color. 
 * Just add the usual VERBOSE=true to env to get an full openssl-emulated dump.
 
-The new code is 100% pure golang only, no cgo, no openssl needed! 
+The new code is 100% pure golang only, no cgo, NO OPENSSL (CMD) NEEDED! 
 
 # INSTALL
 
