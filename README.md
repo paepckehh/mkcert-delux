@@ -7,7 +7,7 @@ i would love to prep a small PR and kill this fork.
 
 ORIGINAL SOURCE: [filippo.io/mkcert](https://filippo.io/mkcert)
 
-# WHATS NEW?
+# WHATS NEW FEATUES??
 
 The delux version does help you to understand what the new certificate 
 is and does and allows by provide you a small summary report.
@@ -16,6 +16,9 @@ is and does and allows by provide you a small summary report.
 * Just add the usual VERBOSE=true to env to get an full openssl-emulated dump.
 
 The new code is 100% pure golang only, no cgo, NO OPENSSL (CMD) NEEDED! 
+
+* add (minimal/basic) support for FreeBSD rootCA
+* add Ed25519 certificates (REMINDER!: still lack of in Chrome)
 
 # INSTALL
 
@@ -30,7 +33,7 @@ go install paepcke.de/mkcert-delux@latest
 # SHOWTIME 
 
 ``` Shell
-NO_COLOR=true mkcert-delux -install
+mkcert-delux -install
 The local CA is now installed in the system trust store! 
 X509 Cert Subject           : [CN=mkcert root@rpi2b32-pnoc,OU=root@rpi2b32-pnoc,O=mkcert development CA] 
 X509 Cert Status            : [VALID] [for the next 3652 days]
