@@ -17,9 +17,12 @@ is and does and allows by provide you a small summary report.
 
 The new code is 100% pure golang only, no cgo, NO OPENSSL (CMD) NEEDED! 
 
-* add (minimal/basic) support for FreeBSD rootCA
-* add Ed25519 certificates (REMINDER!: still lack of in Chrome)
-* Ed25519 reduces embedded systems keygen time from minutes (rsa3072) to less < 1 sec
+# ANYTHING ELSE NEW?
+
+* add (minimal/basic) support for FreeBSD rootCA (PR open [#491](https://github.com/FiloSottile/mkcert/pull/491))
+* add Ed25519 certificates support 
+* Ed25519 REMINDER: still lack of support in Chrome
+* Ed25519: reduce embedded sys keygen time from minutes (rsa3072) to less < 1 sec
    
 
 # INSTALL
