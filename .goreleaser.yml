@@ -2,7 +2,6 @@ builds:
   -
     id: "mkcert-delux"
     binary: mkcert-delux
-    main: ./cmd/mkcert-delux/main.go
     env:
       - CGO_ENABLED=0
     goos:
