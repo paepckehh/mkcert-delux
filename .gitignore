@@ -21,3 +21,5 @@
 Makefile
 doc
 vendor
+mkcert-delux
+cmd/mkcert-delux/mkcert-delux
