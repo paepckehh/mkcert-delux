@@ -141,3 +141,11 @@ Certificate:
          7e:73:10:f0:19:89:51:37:0d:26:1a:c4:6c:6f:cc:64:01:45:
          0a:86:74:1e:fe:b7:
 ```
+
+# DOCS
+
+[pkg.go.dev/paepcke.de/mkcert-delux](https://pkg.go.dev/paepcke.de/mkcert-delux)
+
+# CONTRIBUTION
+
+Yes, Please! PRs Welcome! 
