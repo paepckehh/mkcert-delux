@@ -5,7 +5,7 @@ This is just a small (demonstrator/experimental) temporary fork of filippo.io/mk
 If upstream is intrested (adding 9 LOCs + some, sight, dependencys)
 i would love to prep a small PR and kill this fork.
 
-# ORIGINAL SOURCE: [filippo.io/mkcert](https://filippo.io/mkcert)
+# ORIGINAL SOURCE: [filippo.io/mkcert](https://filippo.io/mkcert/)
 
 # WHATS NEW?
 
