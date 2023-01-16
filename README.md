@@ -1,5 +1,5 @@
 # OVERVIEW 
-[![Go Report Card](https://goreportcard.com/badge/paepcke.de/mkcert-delux)](https://goreportcard.com/report/paepcke.de/mkcert-delux)
+[![Go Reference](https://pkg.go.dev/badge/paepcke.de/mkcert-delux.svg)](https://pkg.go.dev/paepcke.de/mkcert-delux) [![Go Report Card](https://goreportcard.com/badge/paepcke.de/mkcert-delux)](https://goreportcard.com/report/paepcke.de/mkcert-delux)
 
 This is just a small (demonstrator/experimental) temporary fork of filippo.io/mkcert.
 
