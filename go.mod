@@ -3,7 +3,7 @@ module paepcke.de/mkcert-delux
 go 1.20
 
 require (
-	golang.org/x/net v0.6.0
+	golang.org/x/net v0.7.0
 	howett.net/plist v1.0.0
 	paepcke.de/certinfo v0.1.21
 	paepcke.de/reportstyle v0.1.10
