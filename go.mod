@@ -5,7 +5,7 @@ go 1.20
 require (
 	golang.org/x/net v0.7.0
 	howett.net/plist v1.0.0
-	paepcke.de/certinfo v0.1.21
+	paepcke.de/certinfo v0.1.22
 	paepcke.de/reportstyle v0.1.10
 	software.sslmate.com/src/go-pkcs12 v0.2.0
 )
