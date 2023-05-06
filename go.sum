@@ -1,7 +1,7 @@
 github.com/go-logr/logr v1.2.0 h1:QK40JKJyMdUDz+h+xvCsru/bJhvG0UxvePV0ufL/AcE=
 github.com/go-logr/logr v1.2.0/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
-github.com/google/certificate-transparency-go v1.1.4 h1:hCyXHDbtqlr/lMXU0D4WgbalXL0Zk4dSWWMbPV8VrqY=
-github.com/google/certificate-transparency-go v1.1.4/go.mod h1:D6lvbfwckhNrbM9WVl1EVeMOyzC19mpIjMOI4nxBHtQ=
+github.com/google/certificate-transparency-go v1.1.5 h1:EVfYyOiMSdwwXd6FJxnh0jYgYj/Dh5n9sXtgIr5+Vj0=
+github.com/google/certificate-transparency-go v1.1.5/go.mod h1:CnNCSPt9ptZQ8jDSrqyTmh2dT2MQLKymfGYwXqjQ7YY=
 github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
 golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.8.0 h1:pd9TJtTueMTVQXzk8E2XESSMQDj/U7OUu0PqJqPXQjQ=
@@ -24,11 +24,11 @@ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0/go.mod h1:WDnlLJ4WF5VGsH/HVa3CI79GS0ol3YnhVnKP89i0kNg=
 howett.net/plist v1.0.0 h1:7CrbWYbPPO/PyNy38b2EB/+gYbjCe2DXBxgtOOZbSQM=
 howett.net/plist v1.0.0/go.mod h1:lqaXoTrLY4hg8tnEzNru53gicrbv7rrk+2xJA/7hw9g=
-k8s.io/klog/v2 v2.80.1 h1:atnLQ121W371wYYFawwYx1aEY2eUfs4l3J72wtgAwV4=
-k8s.io/klog/v2 v2.80.1/go.mod h1:y1WjHnz7Dj687irZUWR/WLkLc5N1YHtjLdmgWjndZn0=
-paepcke.de/certinfo v0.1.25 h1:ZKBHH97OYmthynWXEj+QkMw8PEjh1m7LHgAZEkntu5Q=
-paepcke.de/certinfo v0.1.25/go.mod h1:ga7+E97fvSEcYJtHt6Hx7o3xLh0tK8aArGuXZhK19CQ=
-paepcke.de/reportstyle v0.1.14 h1:zNfVd/F7kfha7eeTksjxL8mthPjeaBbRJPCYKIYOI9g=
-paepcke.de/reportstyle v0.1.14/go.mod h1:n8RawMbFocJ+xICuqY6RAsGgEvOrgAeSXA/Myu5ecPE=
+k8s.io/klog/v2 v2.90.1 h1:m4bYOKall2MmOiRaR1J+We67Do7vm9KiQVlT96lnHUw=
+k8s.io/klog/v2 v2.90.1/go.mod h1:y1WjHnz7Dj687irZUWR/WLkLc5N1YHtjLdmgWjndZn0=
+paepcke.de/certinfo v0.1.26 h1:QlggmkTw+yf3iI7eDzemuGBxuIMzoUTnLdLYpnlnffE=
+paepcke.de/certinfo v0.1.26/go.mod h1:r0ChxfUYCAE73kjaZd5IKy1tq3LQ/63QizxzFr7gnuU=
+paepcke.de/reportstyle v0.1.15 h1:O4NwlZk5993x3QLeOQpKuf/LCNWQe1Aa8bxx2oDKCWw=
+paepcke.de/reportstyle v0.1.15/go.mod h1:n8RawMbFocJ+xICuqY6RAsGgEvOrgAeSXA/Myu5ecPE=
 software.sslmate.com/src/go-pkcs12 v0.2.0 h1:nlFkj7bTysH6VkC4fGphtjXRbezREPgrHuJG20hBGPE=
 software.sslmate.com/src/go-pkcs12 v0.2.0/go.mod h1:23rNcYsMabIc1otwLpTkCCPwUq6kQsTyowttG/as0kQ=
