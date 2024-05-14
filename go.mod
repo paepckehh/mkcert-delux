@@ -1,6 +1,6 @@
 module paepcke.de/mkcert-delux
 
-go 1.22.3
+go 1.21
 
 require (
 	golang.org/x/net v0.25.0
