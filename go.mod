@@ -6,7 +6,7 @@ require (
 	golang.org/x/net v0.25.0
 	howett.net/plist v1.0.1
 	paepcke.de/certinfo v0.1.35
-	paepcke.de/reportstyle v0.1.22
+	paepcke.de/reportstyle v0.1.24
 	software.sslmate.com/src/go-pkcs12 v0.4.0
 )
 
